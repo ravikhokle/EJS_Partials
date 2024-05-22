@@ -1,2 +1,4 @@
-# EJS_Partials
-EJS_Partials Practial
+learning EJS Partials 
+
+check the output here..
+https://ejs-partials-fcbp.onrender.com
