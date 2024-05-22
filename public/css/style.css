@@ -1,0 +1,21 @@
+h1{
+    color:#b92a2a;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0c0b0be1;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    padding: 10px;
+    margin-right: 20px;
+}
