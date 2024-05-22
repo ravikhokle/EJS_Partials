@@ -1,21 +1,39 @@
-h1{
-    color:#b92a2a;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-a{
-    text-decoration: none;
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
 }
 
-ul{
-    list-style-type: none;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #0c0b0be1;
-    display: flex;
-    justify-content: center;
-}
-
-li{
-    padding: 10px;
+.nav-link{
     margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: #fe1deb;
+    border-bottom: #010101 solid 2px;
+    margin: 20px;
+}
+
+.myfooter{
+    padding: 10px;
+}
+
+.maincontainer{
+    min-height: 80%;
+}
+
+.myh2{
+    padding: 20px 0;
+}
+
+.uname{
+    color:#1ac60e
 }

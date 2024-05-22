@@ -1,3 +1,32 @@
 <%- include("partials/header.ejs") %>
-<h1>Contact us..</h1>
+<div class="container maincontainer">
+    <h1>Contact us.</h1>
+    <h2 class="myh2">Ask your questions</h2>
+
+    <% if(locals.uname){ %>
+      <h2 class="myh2">Thanks <span class="uname"><%=uname %> </span>we will contact you..shortly.</h2> 
+   <% } %>
+
+    <form action="/submit" method="post">
+
+        <div class="mb-3">
+            <label class="form-label">Name*</label>
+            <input type="name" class="form-control" placeholder="Name" name="name" required>
+          </div>
+        <div class="mb-3">
+            <label  class="form-label">Email address*</label>
+            <input type="email" class="form-control" placeholder="name@example.com" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Write your message here*</label>
+            <textarea class="form-control" rows="3" required name="message"></textarea>
+          </div>
+          <div class="mb-3">
+            <input type="submit" class="px-3" value="Submit">
+          </div>
+          
+
+    </form>
+
+</div>
 <%- include("partials/footer.ejs") %>
